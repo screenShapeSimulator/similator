@@ -1,0 +1,48 @@
+
+<script>
+var		student1	=	{ime:	"Perica Peric", index:"MIT 5/19"},	
+	    student2	=	{ime:	"Marko Markovic", index:"MIT 7/19"},		
+	    student3	=	{ime:	"Mirko Mirkovic",index:"MIT 17/19"};
+
+		
+
+var	stud	=	function()	{		
+var	MIT	=	[];		
+var	niz	=	function(obj)	{				
+if	(obj)	{						
+MIT.push(" "+obj.ime+" "+obj.index+" ");						
+return	MIT;				
+}				
+else	{						
+return	MIT;				
+}		
+};		
+return	niz
+ };
+
+
+
+var	stud1	=	stud();
+var	studenti	=	[student1,	student2,	student3];	
+studenti.forEach(stud1); 
+console.log(stud1());
+
+
+
+//var	rezultat	=	stud(); 
+//rezultat(student1);	
+//rezultat(student2);	
+//rezultat(student3);
+//onsole.log(rezultat());	//	Output:	[obj1.value,	obj2.value]
+		
+		
+		
+//console.log(stud(student1));
+
+//console.log(stud(student2));
+
+//console.log(stud(student3));
+
+ 
+
+</script>

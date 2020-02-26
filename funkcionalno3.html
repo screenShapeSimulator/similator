@@ -1,0 +1,35 @@
+<script>
+var		student1	=	{ime:	"Perica Peric", index:"MIT 5/19"},	
+	    student2	=	{ime:	"Marko Markovic", index:"MIT 7/19"},		
+	    student3	=	{ime:	"Mirko Mirkovic",index:"MIT 17/19"};
+
+
+		
+
+ 
+		
+
+var	stud	=	function()	{		
+var	MIT	=	[];		
+var	niz	=	function(obj)	{				
+if	(obj)	{						
+MIT.push(" "+obj.ime+" "+obj.index+" ");						
+return	MIT;				
+}				
+else	{						
+return	MIT;				
+}		
+};		
+return	niz
+ };
+
+ 
+var	rezultat	=	stud(); 
+rezultat(student1);	
+rezultat(student2);	
+rezultat(student3);
+console.log(rezultat());	
+
+ 
+
+</script>
